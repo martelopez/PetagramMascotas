@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="favoritos_name">Petagram Favoritos</string>
+    <string name="nombre">Enrique Martelo</string>
+    <string name="telefono">3444333</string>
+    <string name="correo">emartelopez@gmail.com</string>
+    <string name="pnombre">Dalmata</string>
+    <string name="ptelefeono">5</string>
+    <string name="pcorreo">Correo</string>
+    <string name="pcalificacion">5</string>
+</resources>

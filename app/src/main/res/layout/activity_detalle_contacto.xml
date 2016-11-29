@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:andorid="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_detalle_contacto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.martelopez.amigosapp.DetalleContacto">
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:text="@string/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/nombre_titulo"
+        android:layout_below="@+id/miActionBar"
+        android:padding="@dimen/nombre_contenido"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tel_fono_48"
+            android:padding="@dimen/activity_horizontal_margin"/>
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:text="@string/telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/nombre_contenido"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <ImageView
+            android:id="@+id/ivCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mensaje_50"
+            android:padding="@dimen/activity_horizontal_margin"/>
+
+        <TextView
+            android:id="@+id/tvCorreo"
+            android:text="@string/correo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/nombre_contenido"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

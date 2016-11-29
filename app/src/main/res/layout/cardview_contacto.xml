@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/carview_contacto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margen">
+
+        <ImageView
+            android:id="@+id/imgFotoCv"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dalmata"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/btnLike"
+                    android:layout_width="5dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/dogboneblanco"/>
+
+                <TextView
+                    android:id="@+id/tvNombreCv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pnombre"
+                    android:textSize="@dimen/nombre_titulo"
+                    android:textStyle="bold"
+                    android:paddingLeft="@dimen/margen"
+                    android:layout_weight="3"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/tvTelefonoCv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/nombre_titulo"
+                    android:textStyle="bold"
+                    android:hint="@string/ptelefeono"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"/>
+
+                <ImageButton
+                    android:id="@+id/btnLike1"
+                    android:layout_width="5dp"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/dogboneamarillo"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
