@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu, menu);
         return true;
-     }
+    }
 
      @Override
      public boolean onOptionsItemSelected(MenuItem item){
@@ -51,6 +51,14 @@ public class MainActivity extends AppCompatActivity {
              case R.id.favoritos:
                  Intent intent = new Intent(this, Favoritos.class);
                  startActivity(intent);
+                 break;
+             case R.id.menuContacto:
+                 Intent intentC = new Intent(this, Contactar.class);
+                 startActivity(intentC);
+                 break;
+             case R.id.menuAcerca:
+                 Intent intentA = new Intent(this, Acerca.class);
+                 startActivity(intentA);
                  break;
 
          }

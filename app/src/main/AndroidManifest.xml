@@ -24,14 +24,29 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".Favoritos"
+        <activity
+            android:name=".Favoritos"
             android:label="@string/favoritos_name"
-            android:value=".MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity">
-
-            </meta-data>
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Acerca"
+            android:label="@string/menuAcerca"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".Contactar"
+            android:label="@string/menuContacto"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENTE_ACTIVITY"
+                android:value=".MainActivity"/>
         </activity>
     </application>
 

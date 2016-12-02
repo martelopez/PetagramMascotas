@@ -8,4 +8,6 @@
     <string name="ptelefeono">5</string>
     <string name="pcorreo">Correo</string>
     <string name="pcalificacion">5</string>
+    <string name="menuContacto">Contacto</string>
+    <string name="menuAcerca">Acerca De</string>
 </resources>

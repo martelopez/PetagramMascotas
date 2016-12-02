@@ -10,8 +10,13 @@
         app:showAsAction="always"/>
 
     <item
-        android:id="@+id/menuAbout"
-        android:title="About">
-
+        android:id="@+id/menuContacto"
+        android:title="@string/menuContacto"
+        android:orderInCategory="10">
+    </item>
+    <item
+        android:id="@+id/menuAcerca"
+        android:title="@string/menuAcerca"
+        android:orderInCategory="11">
     </item>
 </menu>
