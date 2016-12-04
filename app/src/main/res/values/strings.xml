@@ -10,4 +10,8 @@
     <string name="pcalificacion">5</string>
     <string name="menuContacto">Contacto</string>
     <string name="menuAcerca">Acerca De</string>
+    <string name="hintNombre">Nombre</string>
+    <string name="hintCorreo">Correo</string>
+    <string name="hintDescripcion">Descripción</string>
+    <string name="btnEnviar">Enviar Comentario</string>
 </resources>

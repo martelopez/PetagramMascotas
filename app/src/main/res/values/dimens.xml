@@ -10,4 +10,7 @@
     <dimen name="action_bar_dimension">4dp</dimen>
     <dimen name="fabCamara_elevation">6dp</dimen>
     <dimen name="fabCamara_size">56dp</dimen>
+    <dimen name="marge_top">20dp</dimen>
+    <dimen name="margen_izq">20dp</dimen>
+    <dimen name="marge_der">30dp</dimen>
 </resources>
